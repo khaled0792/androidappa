@@ -8,10 +8,36 @@
 
     <TextView
         android:id="@+id/textView"
+        android:layout_width="245dp"
+        android:layout_height="76dp"
+        android:autoSizeTextType="uniform"
+        android:text="Menu Principale"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bienvenue sur ma premiére application"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:text="Exit"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jouer"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="313dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
